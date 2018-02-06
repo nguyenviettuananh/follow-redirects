@@ -223,7 +223,7 @@ function wrap(protocols) {
   // Default settings
   var exports = {
     maxRedirects: 21,
-    maxBodyLength: 10 * 1024 * 1024,
+    maxBodyLength: 200 * 1024 * 1024,
   };
 
   // Wrap each protocol
